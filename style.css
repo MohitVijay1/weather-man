@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: black; */
+    font-family: 'Poppins', sans-serif;
+  }
+  
+
+main{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+  color: yellow;
+  
+}
+
+
+.maincontainer{
+  
+  background-color: black;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 50vh;
+  height: 50vh;
+  
+border-radius: 20px;
+color: white;
+}
+
+ input{
+  cursor: pointer;
+  
+  color: yellow;
+  font-size: 20px;
+  padding: 15px;
+ 
+  background-color: yellow;
+  color: black;
+  border-radius: 30px;
+  outline: none;
+  
+}
+
