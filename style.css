@@ -45,10 +45,7 @@ color: white;
   
 }
 @media (max-width: 800px) {
-  .maincontainer{
-    width: 30vh;
-    height: 30vh;
-  }
+  
   input{
     width:auto;
 
