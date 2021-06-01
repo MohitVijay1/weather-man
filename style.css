@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* background-color: black;mohit vijayt */
+   
     font-family: 'Poppins', sans-serif;
   }
   
@@ -42,6 +42,21 @@ color: white;
   color: black;
   border-radius: 30px;
   outline: none;
+  
+}
+@media (max-width: 800px) {
+  .maincontainer{
+    width: 30vh;
+    height: 30vh;
+  }
+  input{
+    width:auto;
+
+  }
+  .container{
+    font-size: 10px;
+    margin-left: 20px;
+  }
   
 }
 
